@@ -9,24 +9,24 @@ public class AnimalTest {
     @Test
     public void TestCatSound()
     {
-        assertEquals("Storm sound",cat.sounds(), "Storm Meows" );
+        assertEquals("Storm sound", "Storm Meows" ,cat.sounds());
     }
 
     @Test
     public void TestCatEats()
     {
-        assertEquals("Food changed",cat.eats() , "Food");
+        assertEquals("Food changed","Food" ,cat.eats() );
     }
 
     @Test
     public void TestDogSound()
     {
-        assertEquals("Dog sound", dog.sounds(), "Rax Barks");
+        assertEquals("Dog sound","Rax Barks", dog.sounds() );
     }
 
     @Test
 public void TestDogEats()
     {
-        assertEquals("Dog eats", dog.eats(), "Food");
+        assertEquals("Dog eats","Food" , dog.eats());
     }
 }
