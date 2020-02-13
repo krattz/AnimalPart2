@@ -10,6 +10,6 @@ public class Animal {
     }
     public String eats(){
 
-        System.out.println( " Food");
-    return "Food";}
+        System.out.println(this.name+ " Food");
+        return "Food";}
 }

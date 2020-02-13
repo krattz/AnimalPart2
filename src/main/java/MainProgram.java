@@ -6,7 +6,8 @@ public class MainProgram {
         Home home = new Home();
         Dog dog = new Dog();
         Cat cat = new Cat();
-
+        dog.setName("Rax ");
+        cat.setName("Storm ");
         dog.sounds();
         cat.sounds();
         dog.eats();

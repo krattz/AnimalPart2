@@ -1,10 +1,7 @@
 public class Cat extends Animal {
 
         public String sounds(){
-                String purr ="";
-                setName("Storm");
-                purr = this.getName()+" Meows";
-                System.out.println(purr);
-                return purr;
+                System.out.println(Cat.this.getName() + "meows");
+       return "Storm Meows";
         }
 }

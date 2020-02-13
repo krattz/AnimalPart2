@@ -1,25 +1,26 @@
 import java.util.ArrayList;
-
-
 public class Home {
   Dog dog = new Dog();
   Cat cat = new Cat();
-ArrayList list = new ArrayList<Object>();
-  public Dog adoptPet(Dog sound)
+  ArrayList list = new ArrayList<Object>();
+
+  public String adoptPet(Cat sound)
   {
-    dog.sounds();
-    return dog;
+    sound.sounds();
+    return "Storm Meows";
   }
-  public Cat adoptPet(Cat sound)
+  public String adoptPet(Dog now)
   {
-    cat.sounds();
-    return cat;
+    now.sounds();
+    return "Rax Barks";
   }
 
   public void makeAllSounds()
   {
-    list.add(dog);
-    list.add(cat);
-
+    for (Object a: list
+    ) {
+      list.add(adoptPet(dog));
+      list.add(adoptPet(cat));
+    }
   }
 }

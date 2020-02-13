@@ -9,7 +9,7 @@ public class AnimalTest {
     @Test
     public void TestCatSound()
     {
-        assertEquals("Storm sound", "Storm Meows" ,cat.sounds());
+        assertEquals("Storm Meows" ,cat.sounds());
     }
 
     @Test
