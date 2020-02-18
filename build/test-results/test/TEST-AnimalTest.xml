@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnimalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-13T13:56:53" hostname="umuzi" time="0.003">
+<testsuite name="AnimalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-18T13:42:22" hostname="umuzi" time="0.003">
   <properties/>
-  <testcase name="TestCatSound" classname="AnimalTest" time="0.003"/>
-  <system-out><![CDATA[nullmeows
+  <testcase name="TestDogEats" classname="AnimalTest" time="0.003"/>
+  <system-out><![CDATA[Rax Food
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
