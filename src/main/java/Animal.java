@@ -9,7 +9,5 @@ public class Animal {
         this.name = name;
     }
     public String eats(){
-
-        System.out.println(this.name+ " Food");
-        return "Food";}
+        return this.name+ " Food";}
 }

@@ -8,12 +8,12 @@ public class MainProgram {
         Cat cat = new Cat();
         dog.setName("Rax ");
         cat.setName("Storm ");
-        dog.sounds();
-        cat.sounds();
-        dog.eats();
-        cat.eats();
-        home.adoptPet(cat);
-        home.adoptPet(dog);
+        System.out.println(dog.sounds());
+        System.out.println(cat.sounds());
+        System.out.println(dog.eats());
+        System.out.println(cat.eats());
+        System.out.println(home.adoptPet(cat));
+        System.out.println(home.adoptPet(dog));
 
         home.makeAllSounds();
     }

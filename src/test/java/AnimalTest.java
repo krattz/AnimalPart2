@@ -17,20 +17,20 @@ public class AnimalTest {
     public void TestCatEats()
     {
         cat.setName("Storm");
-        assertEquals("Food changed","Food" ,cat.eats() );
+        assertEquals("Food changed","Storm Food" ,cat.eats() );
     }
 
     @Test
     public void TestDogSound()
     {
         dog.setName("Rax");
-        assertEquals("Dog sound","Rax Bark", dog.sounds() );
+        assertEquals("Dog sound","Rax Barks", dog.sounds() );
     }
 
     @Test
 public void TestDogEats()
     {
         dog.setName("Rax");
-        assertEquals("Dog eats","Food" , dog.eats());
+        assertEquals("Dog eats","Rax Food" , dog.eats());
     }
 }

@@ -4,15 +4,13 @@ public class Home {
   Cat cat = new Cat();
   ArrayList list = new ArrayList<Object>();
 
-  public String adoptPet(Cat sound)
+  public String adoptPet(Cat cat)
   {
-    sound.sounds();
-    return "Storm Meows";
+    return cat.sounds();
   }
   public String adoptPet(Dog now)
   {
-    now.sounds();
-    return "Rax Barks";
+    return now.sounds();
   }
 
   public void makeAllSounds()
