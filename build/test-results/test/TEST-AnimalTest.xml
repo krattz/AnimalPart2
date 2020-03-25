@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnimalTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-23T08:06:10" hostname="krattz-Latitude-E6510" time="0.004">
+<testsuite name="AnimalTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-25T09:28:31" hostname="krattz-Latitude-E6510" time="0.01">
   <properties/>
-  <testcase name="TestDogEats" classname="AnimalTest" time="0.001"/>
+  <testcase name="TestDogEats" classname="AnimalTest" time="0.002"/>
   <testcase name="TestCatSound" classname="AnimalTest" time="0.0"/>
   <testcase name="TestDogSound" classname="AnimalTest" time="0.0"/>
   <testcase name="TestCatEats" classname="AnimalTest" time="0.001"/>
